@@ -346,7 +346,7 @@ function AppBar(): JSX.Element {
                   >
                     {i18n._(t`Analytics`)}
                   </ExternalLink>
-                )}*/
+                )}
               </div>
             </Popover.Panel>
           </>
