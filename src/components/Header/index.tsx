@@ -303,7 +303,7 @@ function AppBar(): JSX.Element {
                       {i18n._(t`Farm`)}
                     </a>
                   </Link>
-                )}*/
+                )}
 
                 {chainId && featureEnabled(Feature.KASHI, chainId) && (
                   <>
@@ -336,7 +336,7 @@ function AppBar(): JSX.Element {
                       {i18n._(t`Stake`)}
                     </a>
                   </Link>
-                )}
+                )}*/
 
                 {(chainId && featureEnabled(Feature.ANALYTICS, chainId) && (
                   <ExternalLink
