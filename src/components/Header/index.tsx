@@ -293,7 +293,7 @@ function AppBar(): JSX.Element {
                 //   </a>
                 // </Link>
 
-                {/*(chainId && featureEnabled(Feature.LIQUIDITY_MINING, chainId) && (
+                /*{(chainId && featureEnabled(Feature.LIQUIDITY_MINING, chainId) && (
                   <Link href={'/farm'}>
                     <a
                       id={`farm-nav-link`}
@@ -303,7 +303,7 @@ function AppBar(): JSX.Element {
                       {i18n._(t`Farm`)}
                     </a>
                   </Link>
-                )*/}
+                )}*/
 
                 {chainId && featureEnabled(Feature.KASHI, chainId) && (
                   <>
